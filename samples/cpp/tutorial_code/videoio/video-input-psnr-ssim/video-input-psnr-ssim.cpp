@@ -157,7 +157,7 @@ double getPSNR(const Mat& I1, const Mat& I2)
 
 // ![get-mssim]
 
-Scalar getMSSIM( const Mat& i1, const Mat& i2)
+Scalar getMSSIM (const Mat& i1, const Mat& i2)
 {
     const double C1 = 6.5025, C2 = 58.5225;
     /***************************** INITS **********************************/
